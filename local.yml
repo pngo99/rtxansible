@@ -1,6 +1,6 @@
 ---
-- hosts: cent74
-  become: yes
+- hosts: localhost
+  become: true
   tasks:
   - name: Install telnet
     yum: name=telnet state=present
