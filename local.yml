@@ -1,0 +1,5 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install telnet
+    yum: name=telnet
