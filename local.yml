@@ -3,4 +3,4 @@
   become: true
   tasks:
   - name: Install telnet
-    apt: name=telnet
+    yum: name=telnet state=present
