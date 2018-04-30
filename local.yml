@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: cent74
   become: yes
   tasks:
   - name: Install telnet
