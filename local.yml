@@ -1,5 +1,6 @@
+---
 - hosts: localhost
-  become: true
+  become: yes
   tasks:
   - name: Install telnet
-    yum: name=telnet
+    yum: name=telnet state=present
